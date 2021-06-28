@@ -1,5 +1,16 @@
 # TP-Final-Redes
 
+### Instalación 
+En la carpeta _Builds_ encontraremos dos aplicaciones, el servidor y el cliente.
+1. Primero debemos ejecutar el servidor ubicado en la carpeta _Server_ especificando un número de puerto (por ejemplo 3000)
+```
+java -jar ./Sockets.jar 3000
+```
+2. Luego debemos repetir el mismo paso con el cliente ubicado en la carpeta _Client_, pero ahora especificando nombre del host y número de puerto al que deseamos conectarnos.
+```
+java -jar ./Sockets-Client.jar localhost 3000
+```
+
 ### Crear un modelo cliente - servidor utilizando TCP/IP Sockets a partir de los siguientes puntos:
 
 * Crear un servidor:
